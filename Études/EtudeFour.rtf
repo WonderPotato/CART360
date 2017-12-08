@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww22540\viewh13660\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 Michelle Samson\
+CART 360\
+\
+Etude #4 \
+\
+\
+Code: couldn\'92t figure it out, I understood the shift register and its function, but I was not able to find a place to start, and yes \'93why didn\'92t you come in the lab and get help?\'94 because I had a booked up weekend and didn\'92t make the appropriate amount of time to get this done.\
+\
+Circuit: I understood the function of it. I have uploaded images of my circuit.\
+\
+Video: none as I did not have a code to present.\
+\
+\
+Questions:\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa320
+\ls1\ilvl0\cf0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+Please explain in your own words, what and how a Shift Register works - is this how it is used the context of this Etude? \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa320
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+A: \kerning1\expnd0\expndtw0 The shift register receives serial input from the arduino/code into the Latch/clock/data pins, and outputs parallel data/flow to the Q1-Q7 pins on the other side of the shift register. where it will send out the signal to the 7 segment display.\expnd0\expndtw0\kerning0
+\uc0\u8232 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa320
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+The outcome for this Etude allows the user in Mode 3 to Store a Pattern and then in Mode 4 to select a Pattern by using the Potentiometer, then they click on the Store Button and that Pattern is Retrieved and Played. At this point, if the user wants to select another Stored Pattern they need to use the Mode Button to cycle through mode 1 -> mode 4 in order to do so. \uc0\u8232 Please explain how you would implement the functionality to allow the user to Select and \u8232 Retrieve Patterns WITHIN the same Mode (without having to re-cycle through). \u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+In this Etude, we do not use the Photocell to modulate the Note Frequency while it is being \uc0\u8232 pressed.\u8232 Please explain briefly how one could STORE a modulated Note over time (i.e. how would one store the changes in frequency over a specific time interval)?\u8232 NB: you need not consider the specific code implementation provided for this Etude.  \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa320
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+A: \kerning1\expnd0\expndtw0 A new array for the frequency to be stored in as a float, the note\'92s modulation could be converted into a storable type.  By having an array type to hold the frequency it could then be calculated and one could retrieve it in the shift register function.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa320
+\ls1\ilvl0\cf0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+Please provide 2 ideas (150 words each) for how you would suggest to extend this instrument we have been developing throughout the semester.  \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa320
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}Idea #1: Create a deeper melody producing circuit with various tones that can be edited in a sound editing software MAX/MSP.  Therefore one could utilize the entertainment of a circuit while creating live music and have a patcher creating modulations on the spot.  Instead of using machines to play with sounds, a circuit uses power and technology that has a craftier appeal to it.  Having more buttons to utilize would help the process to create better melodies.  Having a random function that can be stored and then manipulated by the user at the same time could become interesting. Storing tones in the circuit is useful, having multiple segment displays to show which current melody is being played is useful.\
+{\listtext	\uc0\u8259 	}Idea #2:  Hook up a microphone and make the circuit recreate the sounds inputted into toned/modulated sounds with various pitches. create robotic voice through resistors. This could create extremely robotic sounds of humans or create subtle voices with some form of autotune.  One would need an attachment in order to link up the microphone, also the circuit could be expanded to have more buttons to create a wider set of pitches and tones. Having your own personalized autotune where you can adjust on the go the various pitches to change your voice, that\'92s a useful and new way of looking at the circuits we\'92ve been learning throughout this class.\expnd0\expndtw0\kerning0
+\uc0\u8232 \
+}
